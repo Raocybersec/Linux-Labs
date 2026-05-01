@@ -63,3 +63,7 @@ Security Observation:
 The Gateway IP  192.168..1is correctly mapped to the hardware ID of the router.
 
 Incident Response (Blue Teaming): I monitor this table to detect ARP Spoofing. If the  lladdr(MAC) for my gateway changes unexpectedly, it indicates a potential Man-in-the-Middle (MitM) attack where a malicious actor is attempting to my traffic.
+
+Conclusion
+
+By mapping these three layers, I have established a security baseline for this workstation. This understanding of the Linux network stacking is foundational for secure managing, scalable virtual networks in a Cloud Infrastructure.
